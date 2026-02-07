@@ -92,7 +92,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // === Form Handling (JSON Automation Ready) ===
+    // === Form Handling (Disabled for FormSubmit.co) ===
+    /*
     if (contactForm) {
         contactForm.addEventListener('submit', (e) => {
             e.preventDefault();
@@ -131,5 +132,6 @@ document.addEventListener('DOMContentLoaded', () => {
             }, 1000);
         });
     }
+    */
 
 });
