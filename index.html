@@ -246,7 +246,14 @@
             </div>
 
             <p class="section-subtitle scroll-reveal">Ready to Start? <span class="zh-sub">準備好開始了嗎？</span></p>
-            <form id="contact-form" class="contact-form glass-panel scroll-reveal">
+            <form id="contact-form" class="contact-form glass-panel scroll-reveal"
+                action="https://formsubmit.co/onepercent.ai.tw@gmail.com" method="POST">
+                <!-- FormSubmit Configuration -->
+                <input type="hidden" name="_subject" value="New Inquiry from ONE PERCENT Website">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_captcha" value="true">
+                <!-- <input type="hidden" name="_next" value="https://yourdomain.com/thanks.html"> Optional: Redirect after submission -->
+
                 <div class="form-group">
                     <label for="name">Name / 姓名</label>
                     <input type="text" id="name" name="name" required placeholder="Your Name">
@@ -285,6 +292,9 @@
     <footer>
         <div class="container">
             <div class="footer-content">
+                <p style="margin-bottom: 0.5rem;"><a href="mailto:onepercent.ai.tw@gmail.com"
+                        style="color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; letter-spacing: 0.5px;">onepercent.ai.tw@gmail.com</a>
+                </p>
                 <p>&copy; 2024 ONE PERCENT. All Rights Reserved.</p>
                 <div class="social-links">
                     <a href="#">Privacy Policy / 隱私權政策</a>
